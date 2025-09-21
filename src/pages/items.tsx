@@ -17,5 +17,9 @@ export default function Items() {
 
   if (loading) return <p>Loading...</p>;
 
-  return <ItemsTable items={items} />;
+  return (
+    <div className="max-h-400 overflow-y-auto">
+      <ItemsTable items={items} />
+    </div>
+  );
 }

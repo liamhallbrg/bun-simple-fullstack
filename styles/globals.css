@@ -6,6 +6,7 @@
 
 :root {
   --background: hsl(0 0% 100%);
+  --background2: hsl(240, 40%, 31%);
   --foreground: hsl(240 10% 3.9%);
   --card: hsl(0 0% 100%);
   --card-foreground: hsl(240 10% 3.9%);
@@ -42,6 +43,7 @@
 
 .dark {
   --background: hsl(240 10% 3.9%);
+  --background2: hsl(240 4% 10%);
   --foreground: hsl(0 0% 98%);
   --card: hsl(240 10% 3.9%);
   --card-foreground: hsl(0 0% 98%);
@@ -77,6 +79,7 @@
 
 @theme inline {
   --color-background: var(--background);
+  --color-background2: var(--background2);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
   --color-card-foreground: var(--card-foreground);
